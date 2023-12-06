@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 0px;
+}
+
+#logo_loja {
+    width: 30vh;
+    height: 30vh;
+}
+
+.boas_vindas {
+    display: flex;
+    margin: 0vh 10vh;
+    gap: 10vh;
+    align-items: center;
+    text-align: justify;
+}
