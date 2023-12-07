@@ -8,8 +8,17 @@
 
 body {
     margin: 0px;
+    padding: 0px;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--branco);
+}
+
+body h1 {
+    color: var(--azul);
+}
+
+body h2 {
+    color: var(--azul)
 }
 
 hr {
@@ -32,4 +41,86 @@ hr {
     gap: 10vh;
     align-items: center;
     text-align: justify;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 800%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-bt {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 600ms ease-in-out;
+}
+
+.manual-bt:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-bt:hover {
+    background-color: black;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first {
+    margin-left: -125%;
+}
+
+#radio7:checked ~ .first {
+    margin-left: -150%;
+}
+
+#radio8:checked ~ .first {
+    margin-left: -175%;
 }
