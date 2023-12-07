@@ -1,15 +1,29 @@
+:root {
+    --branco: azure;
+    --azul: #1f3b7c;
+    --vermelho: #d6202e;
+    --amarelo: #ffef06;
+    --cinza: #4d4d4d;
+}
+
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--branco);
 }
 
 hr {
     margin: 0px;
+    background-color: var(--vermelho);
+    height: 3px;
+    border: 0px;
+    border-radius: 10px;
 }
 
 #logo_loja {
     width: 30vh;
     height: 30vh;
+    border-radius: 100%;
 }
 
 .boas_vindas {
