@@ -100,3 +100,13 @@ hr {
 #prev-button {
     rotate: 180deg;
 }
+
+#map-box {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
