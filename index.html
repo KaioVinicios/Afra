@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    
+    <script src="script.js" defer></script>
+
     <title>Afra</title>
 </head>
 <body>
@@ -24,62 +25,19 @@
     <hr>
     <div>
         <h2>Marcas parceiras</h2>
-        <div class="slider">
-            <div class="slides">
-                <input type="radio" name="radio-bt" id="radio1">
-                <input type="radio" name="radio-bt" id="radio2"> 
-                <input type="radio" name="radio-bt" id="radio3">
-                <input type="radio" name="radio-bt" id="radio4">
-                <input type="radio" name="radio-bt" id="radio5">
-                <input type="radio" name="radio-bt" id="radio6">
-                <input type="radio" name="radio-bt" id="radio7">
-                <input type="radio" name="radio-bt" id="radio8">
+        <div class="container-slider">
+            <button id="prev-button"><img src="images/Arrow.svg" alt=""></button>
+            <div class="container-images">
+                <img src="images/parceiras/B&D.png" alt="" class="slider on">
+                <img src="images/parceiras/Bosch.png" alt="" class="slider">
+                <img src="images/parceiras/Fortlev.png" alt="" class="slider">
+                <img src="images/parceiras/foxlux.png" alt="" class="slider">
+                <img src="images/parceiras/Lorenzetti.png" alt="" class="slider">
+                <img src="images/parceiras/Skill.png" alt="" class="slider">
+                <img src="images/parceiras/Starrett.png" alt="" class="slider">
+                <img src="images/parceiras/Votorantim.png" alt="" class="slider">
             </div>
-            <div class="slide first">
-                <img src="images/parceiras/B&D.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="images/parceiras/Bosch.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="images/parceiras/Fortlev.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="images/parceiras/foxlux.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="images/parceiras/Lorenzetti.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="images/parceiras/Skill.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="images/parceiras/Starrett.png" alt="">
-            </div>
-            <div class="slide">
-                <img src="images/parceiras/Votorantim.png" alt="">
-            </div>
-
-            <div class="navigation-auto">
-                <div class="auto-bt1"></div>
-                <div class="auto-bt2"></div>
-                <div class="auto-bt3"></div>
-                <div class="auto-bt4"></div>
-                <div class="auto-bt5"></div>
-                <div class="auto-bt6"></div>
-                <div class="auto-bt7"></div>
-                <div class="auto-bt8"></div>
-            </div>
-        </div>
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-bt"></label>
-            <label for="radio2" class="manual-bt"></label>
-            <label for="radio3" class="manual-bt"></label>
-            <label for="radio4" class="manual-bt"></label>
-            <label for="radio5" class="manual-bt"></label>
-            <label for="radio6" class="manual-bt"></label>
-            <label for="radio7" class="manual-bt"></label>
-            <label for="radio8" class="manual-bt"></label>
+            <button id="next-button"><img src="images/Arrow.svg" alt=""></button>
         </div>
     </div>
     <hr>
@@ -100,7 +58,5 @@
     <div>
         <!--<p>© 2023 AFRA AMC, All rights reserved.</p>-->
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
